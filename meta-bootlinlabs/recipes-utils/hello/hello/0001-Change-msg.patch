@@ -1,0 +1,22 @@
+From 5a1af27bb27b3dab4fd84806624231feb5ff45fa Mon Sep 17 00:00:00 2001
+From: ngocdai <ngocdai@ngocdai.ngocdai>
+Date: Tue, 23 Jul 2024 22:44:58 +0700
+Subject: [PATCH] Change msg
+
+---
+ src/hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/hello.c b/src/hello.c
+index 453962f..dd4acb4 100644
+--- a/src/hello.c
++++ b/src/hello.c
+@@ -57,7 +57,7 @@ main (int argc, char *argv[])
+ #endif
+ 
+   /* Having initialized gettext, get the default message. */
+-  greeting_msg = _("Hello, world!");
++  greeting_msg = _("Hello, My name is Ngoc Dai!");
+ 
+   /* Even exiting has subtleties.  On exit, if any writes failed, change
+      the exit status.  The /dev/full device on GNU/Linux can be used for

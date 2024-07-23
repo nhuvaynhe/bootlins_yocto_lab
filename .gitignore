@@ -1,0 +1,5 @@
+build/*
+sdk/*
+meta-ti/*
+meta-arm/*
+poky/*
